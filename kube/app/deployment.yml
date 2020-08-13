@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quotes-app
+  labels:
+    app: quotes-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: quotes-app
+      tier: app
+  template:
+    metadata:
+      labels:
+        app: quotes-app
+        tier: app
+    spec:
+      containers:
+      - name: quotes-container
+        image: quotes:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 3000
