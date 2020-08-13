@@ -1,6 +1,6 @@
 ## Development
 
-An example application and guide for getting a Rails application deployed with Kubernetes. The instruction below use minikube, but they should apply to any Kubernetes cluster.
+An example application and guide for getting a Rails application deployed with Kubernetes. The instructions below use minikube, but they should apply to any Kubernetes cluster.
 
 ## Getting Started
 
