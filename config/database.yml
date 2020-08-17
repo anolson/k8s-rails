@@ -8,8 +8,8 @@ default: &default
 
 development:
   <<: *default
-  database: k8s-demo
+  database: quotes
 
 test:
   <<: *default
-  database: k8s-demo_test
+  database: quotes_test
