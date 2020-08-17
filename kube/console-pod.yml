@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: console
-spec:
-  containers:
-  - name: console
-    image: quotes:latest
-    imagePullPolicy: Never

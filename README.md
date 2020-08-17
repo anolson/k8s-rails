@@ -20,7 +20,7 @@ $ minikube dashboard
 
 Create volume, service, and deployment with:
 ```
-$kubectl apply -f kube/postgres
+$ kubectl apply -f kube/postgres
 ```
 
 View logs with:
@@ -41,14 +41,10 @@ $ eval $(minikube docker-env)
 $ docker build -t quotes:latest .
 ```
 
-**Create the console pod with:**
-```
-$ kubectl apply -f kube/console-pod.yml
-```
-
 **DB Setup:**
 ```
-$ kubectl exec -it console -- bin/rake db:setup
+$ kubectl apply -f kube/setup.yml
+$ kubectl logs -f jobs/setup
 ```
 
 Create the service and deployment with:
@@ -69,9 +65,10 @@ $ minikube service quotes
 $ minikube stop
 ```
 
-Delete all services and deployments with:
+Delete deployments, jobs, and services with:
 
 ```
 kubectl delete deployments --all
+kubectl delete jobs --all
 kubectl delete services --all
 ```

@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: setup
+spec:
+  template:
+    spec:
+      containers:
+      - name: setup
+        image: quotes:latest
+        imagePullPolicy: Never
+        command: ["bin/rake",  "db:setup"]
+      restartPolicy: Never
+  backoffLimit: 4
