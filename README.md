@@ -63,7 +63,7 @@ $ minikube service quotes
 
 ## Stop services
 
-### Stop `minikube`
+### Stop minikube
 
 ```
 $ minikube stop
