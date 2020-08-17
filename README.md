@@ -90,7 +90,7 @@ kubectl delete services --all
 * https://k3s.io
 
 **Misc**
-** http://kubernetes-rails.com
-** https://m.signalvnoise.com/seamless-branch-deploys-with-kubernetes/
-** https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
+* http://kubernetes-rails.com
+* https://m.signalvnoise.com/seamless-branch-deploys-with-kubernetes/
+* https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
 
