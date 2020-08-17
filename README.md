@@ -72,3 +72,25 @@ kubectl delete deployments --all
 kubectl delete jobs --all
 kubectl delete services --all
 ```
+
+## Other resources
+
+**Guides**
+* [tzumby/rails-on-kubernetes](https://github.com/tzumby/rails-on-kubernetes) (and [article](https://www.monkeyvault.net/rails-on-kubernetes-part-2/))
+
+**Documentation**
+* https://kubernetes.io/docs/home/
+
+**Courses**
+* https://www.edx.org/course/introduction-to-kubernetes
+
+**Tools**
+* https://www.docker.com/products/docker-desktop
+* https://www.docker.com/products/kubernetes
+* https://k3s.io
+
+**Misc**
+** http://kubernetes-rails.com
+** https://m.signalvnoise.com/seamless-branch-deploys-with-kubernetes/
+** https://medium.com/containers-101/local-kubernetes-for-mac-minikube-vs-docker-desktop-f2789b3cad3a
+
