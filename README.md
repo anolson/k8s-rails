@@ -1,6 +1,6 @@
-## Development
+## Overview
 
-An example application and guide for getting a Rails application deployed with Kubernetes. The instructions below use minikube, but they should apply to any Kubernetes cluster.
+This is an example application and guide for getting a Rails application deployed with Kubernetes. The instructions below use minikube, but they should apply to any Kubernetes cluster.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ $ minikube dashboard
 
 ## Deploy Postgres
 
-Create volume, service, and deployment with:
+Create the volume, service, and deployment with:
 ```
 $ kubectl apply -f kube/postgres
 ```
